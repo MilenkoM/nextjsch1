@@ -1,10 +1,10 @@
 import React from 'react';
 import Nav from '../components/Nav';
 
-export default () => (
-  <div>
-    <Nav />
-    <hr />
-    Second page for our tutorial
-  </div>
-);
+const Second = () => <div>
+  <Nav />
+  <hr />
+  Second page for our tutorial
+</div>;
+
+export default Second;

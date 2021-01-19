@@ -1,10 +1,10 @@
 import React from 'react';
 import Nav from '../components/Nav';
 
-export default () => (
-  <div>
-    <Nav />
-    <hr />
-    Index
-  </div>
-);
+const Index = () => <div>
+  <Nav />
+  <hr />
+  Index
+</div>;
+
+export default Index;
