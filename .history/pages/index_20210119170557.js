@@ -2,8 +2,7 @@ import Link from "next/link";
 import React from "react";
 import Nav from "../components/Nav";
 
-export default () => (
-	<div>
+export default () => (<div>
 	<Nav/>
 		<hr/>
 		Index

@@ -1,0 +1,21 @@
+{
+  "name": "nextjsch1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "next",
+    "build": "next build",
+    "static": "next export"-
+  },
+  "keywords": [],
+  "author": "Milenko Markovic",
+  "license": "MIT",
+  "devDependencies": {
+    "next": "^10.0.5"
+  },
+  "dependencies": {
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1"
+  }
+}
