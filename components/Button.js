@@ -1,13 +1,20 @@
-      import React from 'react';
-      import {withRouter} from 'next/router';
+import { withRouter } from 'next/router';
+import React from 'react';
 
-      const Btn = ({href, onClick, children, router}) => (
-          <span>
-              <button onClick={onClick} style={{fontWeight : 
-              router.pathname === href ? 'bold' : ''}}>
-                  {children}
-              </button>
-          </span>
-      );
+const Btn = ({
+  href, onClick, children, router,
+}) => (
+  <span>
+    <button
+      onClick={onClick}
+      style={{
+        fontWeight:
+              router.pathname === href ? 'bold' : '',
+      }}
+    >
+      {children}
+    </button>
+  </span>
+);
 
-      export default withRouter(Btn);
+export default withRouter(Btn);

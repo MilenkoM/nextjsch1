@@ -5,6 +5,6 @@ export default () => (
   <div>
     <Nav />
     <hr />
-    Index
+    Audio will be added at this page !
   </div>
 );
