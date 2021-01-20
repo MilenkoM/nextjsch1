@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "next",
+    "start": "node server.js",
     "build": "next build",
     "static": "next export"
   },
@@ -19,6 +19,7 @@
     "eslint-plugin-jsx-a11y": "^6.4.1",
     "eslint-plugin-react": "^7.22.0",
     "eslint-plugin-react-hooks": "^4.2.0",
+    "express": "^4.17.1",
     "next": "^10.0.5"
   },
   "dependencies": {
